@@ -10,8 +10,12 @@
 		"project": "AIS-Payment-gateway",
 		"validdate": "30Sep2023"
 	},
-        "SRC_IMG_REF_PUBLISHER" : "Canonical",
-        "SRC_IMG_REF_OFFER" : "0001-com-ubuntu-server-jammy",
-        "SRC_IMG_REF_SKU" : "22_04-lts-gen2",
-        "SRC_IMG_REF_VERSION" : "latest"
+        "SRC_IMG_REF_PUBLISHER" : "MicrosoftWindowsServer",
+        "SRC_IMG_REF_OFFER" : "WindowsServer",
+        "SRC_IMG_REF_SKU" : "2016-Datacenter",
+        "SRC_IMG_REF_VERSION" : "latest",
+	"create_resource_group": true,
+	"custom_vm_name": "trainee-vm-window",
+	"instance_count": "1",
+	"vm_size": "Standard_D2s_v3"
 }
