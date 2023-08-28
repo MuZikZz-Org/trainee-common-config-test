@@ -17,5 +17,7 @@
 	"create_resource_group": true,
 	"custom_vm_name": "trainee-vm-window",
 	"instance_count": "1",
-	"vm_size": "Standard_D2s_v3"
+	"vm_size": "Standard_D2s_v3",
+	"os_admin_username" : "username" ,
+	"os_admin_password" : "password1234"
 }
