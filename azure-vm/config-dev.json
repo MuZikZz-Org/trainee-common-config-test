@@ -13,5 +13,7 @@
         "SRC_IMG_REF_PUBLISHER" : "Canonical",
         "SRC_IMG_REF_OFFER" : "0001-com-ubuntu-server-jammy",
         "SRC_IMG_REF_SKU" : "22_04-lts-gen2",
-        "SRC_IMG_REF_VERSION" : "latest"
+        "SRC_IMG_REF_VERSION" : "latest",
+	"PUBLIC_IP" : "YOUR_PUBLIC_IP",
+        "SONARQUBE_PORT" : 9000
 }
